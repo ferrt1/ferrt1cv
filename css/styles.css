@@ -437,6 +437,11 @@ a{
   .about-container h2{
     font-size: 2rem;
     text-align: left;
+    animation: none;
+    text-shadow: 0 0 10px var(--tropical-pink),
+    0 0 20px var(--tropical-pink),
+    0 0 40px var(--tropical-pink),
+    0 0 80px var(--tropical-pink);
   }
   .about-p{
     font-size: 1rem;
@@ -451,6 +456,7 @@ a{
   .about-technologies img{
     height: 13vw;
   }
+  
 }
 
 /* ******************************************************* PROJECTS <******************************************************************** */
@@ -719,6 +725,9 @@ a{
   .contact-cards{
     grid-template-columns: repeat(2, 50%);
   }
+  .contact-container h2{
+    font-size: 2rem;
+  }
 }
 @media screen and (max-width: 630px) {
   .contact-cards{
@@ -726,6 +735,9 @@ a{
   }
   .remove-card{
     display: none;
+  }
+  .contact-container h2{
+    font-size: 2rem;
   }
 }
 /* ******************************************************** FOOTER ********************************************************************** */
